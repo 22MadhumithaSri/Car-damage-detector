@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CarDetails">
+    <View
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/header_bg">
+
+    </View>
+
+
+    <TextView
+        android:layout_marginTop="35dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="CAR DETAILS"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/title"/>
+    <ImageView
+        android:id="@+id/shortcut"
+        android:layout_marginTop="100dp"
+        android:layout_marginLeft="340dp"
+        android:layout_weight="1"
+        android:layout_width="57dp"
+        android:layout_height="67dp"
+        app:srcCompat="@drawable/home"
+        tools:ignore="VectorDrawableCompat" />
+
+    <EditText
+        android:id="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="180dp"
+        android:inputType="text"
+        android:hint="        Type of car"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="222dp" />
+
+
+
+    <EditText
+        android:id="@+id/year"
+        android:layout_below="@+id/type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="25dp"
+        android:inputType="text"
+        android:hint="       Manufactured Year"
+
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="314dp"
+        tools:ignore="MissingConstraints" />
+    <EditText
+        android:id="@+id/model"
+        android:layout_below="@+id/year"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:layout_marginTop="25dp"
+        android:inputType="text"
+        android:hint="       Model of car"
+
+        tools:layout_editor_absoluteX="101dp"
+        tools:layout_editor_absoluteY="314dp"
+        tools:ignore="MissingConstraints" />
+
+    <TextView
+        android:layout_marginTop="535dp"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="Response"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/response_data"/>
+     <Button
+        android:id="@+id/nextbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/year"
+        android:layout_marginStart="163dp"
+        android:layout_marginLeft="163dp"
+        android:layout_marginTop="140dp"
+        android:layout_marginEnd="163dp"
+        android:layout_marginRight="163dp"
+        android:layout_marginBottom="260dp"
+        android:textColor="@color/colorWhite"
+        android:background="@color/colorrose"
+        android:text="Next" />
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bottom_bg"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

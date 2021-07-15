@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "757502342018",
+    "firebase_url": "https://cardamagedetector-fba8f.firebaseio.com",
+    "project_id": "cardamagedetector-fba8f",
+    "storage_bucket": "cardamagedetector-fba8f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:757502342018:android:df07d86363fdcaf3f9559b",
+        "android_client_info": {
+          "package_name": "com.example.cardamagedetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "757502342018-298i0189sdmnn6negkiebalcmhv0gcdt.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cardamagedetector",
+            "certificate_hash": "c2778e7dc18898c6f894b4896bb6e05a0e00d86e"
+          }
+        },
+        {
+          "client_id": "757502342018-po5ksa49ahbtnv5bm0uha20h60goq15v.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_TbQfAAMXRnhJtT05YOULQhBRzMPKU6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "757502342018-po5ksa49ahbtnv5bm0uha20h60goq15v.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

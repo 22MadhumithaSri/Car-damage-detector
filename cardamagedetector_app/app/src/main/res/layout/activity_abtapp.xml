@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Abtapp">
+    <View
+        android:id="@+id/header_view"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/header_bg">
+
+    </View>
+    <TextView
+        android:layout_marginTop="35dp"
+        android:textColor="@color/colorWhite"
+        android:textSize="25sp"
+        android:textAlignment="center"
+        android:text="ABOUT"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:id="@+id/title"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/header_view"
+        android:orientation="vertical">
+        <ImageView
+            android:id="@+id/shortcut"
+            android:layout_width="57dp"
+            android:layout_height="67dp"
+            android:layout_marginLeft="330dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="0dp"
+            app:srcCompat="@drawable/home"
+            tools:ignore="VectorDrawableCompat" />
+
+        <TextView
+            android:id="@+id/phone"
+            android:layout_width="397dp"
+            android:layout_height="187dp"
+            android:layout_marginTop="100dp"
+            android:ems="10"
+            android:hint="Easyway to move through                 tough
+             paths at tough rides"
+            android:inputType="text"
+            android:textSize="25sp"
+            tools:layout_editor_absoluteX="102dp"
+            tools:layout_editor_absoluteY="222dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:gravity="bottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <View
+
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="@drawable/bottom_bg"/>
+    </LinearLayout>
+
+
+</RelativeLayout>

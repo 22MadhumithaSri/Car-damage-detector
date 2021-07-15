@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "613193025772",
+    "firebase_url": "https://cardamagedetector.firebaseio.com",
+    "project_id": "cardamagedetector",
+    "storage_bucket": "cardamagedetector.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613193025772:android:dec60cfac380078d633dc9",
+        "android_client_info": {
+          "package_name": "com.example.cardamagedetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613193025772-oglsa0u62upr2fr2ku1fk9g32csonc7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY_KUNp8tWpJ8iWXmyDfXsSKTNvj-pl7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613193025772-oglsa0u62upr2fr2ku1fk9g32csonc7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:613193025772:android:73f0576585ee69cd633dc9",
+        "android_client_info": {
+          "package_name": "com.srp.cardamagedetector"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "613193025772-oglsa0u62upr2fr2ku1fk9g32csonc7c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY_KUNp8tWpJ8iWXmyDfXsSKTNvj-pl7M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "613193025772-oglsa0u62upr2fr2ku1fk9g32csonc7c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
